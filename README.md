@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I'm G. Bharath Simha Reddy 👋
+### Founder & Chief Architect @ NEURAL-GRID ⚡
 
-<!--
-**Bharath170/Bharath170** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Building the next-generation **Decentralized AI Computing Infrastructure (DePIN)** — aggregating idle consumer GPU power into a global P2P supercomputer.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Core Focus & Tech Stack
+- **Architecture:** Distributed Systems, P2P Networks, Task Orchestration, ZKP
+- **Infrastructure:** Docker Sandboxing, libp2p, WebRTC, Linux
+- **Languages & Frameworks:** Python, Go, C++, FastAPI, Node.js
+- **Web3 & Cloud:** Polygon/Solana Smart Contracts, AWS, Firebase
+
+---
+
+### 🚀 Featured Project
+- 🌀 **[NEURAL-GRID](https://github.com/Bharath170)**: Decentralized P2P Compute Network for AI Model Training & Execution.
+
+---
+
+### 📈 GitHub Telemetry
+![Bharath's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Bharath170&show_icons=true&theme=dark&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bharath170&layout=compact&theme=dark)
