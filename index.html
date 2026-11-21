@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f8fc" />
+  <meta name="description" content="Bharath Simha Reddy — B.Tech AI & ML student building web applications with React, JavaScript, Firebase and Node.js." />
+  <title>Bharath Simha Reddy | Web Developer</title>
+  <style>
+    :root{--bg:#f7f8fc;--surface:#fff;--ink:#182033;--muted:#667085;--line:#e7eaf1;--blue:#315efb;--blue2:#eaf0ff;--green:#13795b;--shadow:0 18px 55px rgba(28,42,75,.08)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 40px));margin:auto}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:850;letter-spacing:-.05em;font-size:20px}.brand span{color:var(--blue)}.navlinks{display:flex;gap:26px;color:var(--muted);font-size:14px}.navlinks a:hover{color:var(--blue)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;padding:11px 17px;font-weight:700;font-size:14px}.nav-cta,.btn.primary{background:var(--blue);color:white;box-shadow:0 8px 20px rgba(49,94,251,.18)}.btn.secondary{border:1px solid var(--line);background:#fff}.hero{padding:78px 0 70px;display:grid;grid-template-columns:1.3fr .7fr;gap:50px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--green);background:#e9f7f1;border:1px solid #d3eee2;padding:7px 12px;border-radius:999px;font-size:12px;font-weight:750;letter-spacing:.02em}.dot{width:7px;height:7px;border-radius:50%;background:#18a875}.hero h1{font-size:clamp(42px,6vw,68px);line-height:1.06;letter-spacing:-.065em;margin:22px 0 18px}.hero h1 em{font-style:normal;color:var(--blue)}.lead{max-width:630px;color:var(--muted);font-size:18px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.mini{margin-top:24px;color:var(--muted);font-size:13px}.profile-card{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:25px;box-shadow:var(--shadow);position:relative;overflow:hidden}.profile-card:before{content:"";position:absolute;width:190px;height:190px;background:var(--blue2);border-radius:50%;right:-70px;top:-80px}.avatar{width:76px;height:76px;border-radius:22px;background:linear-gradient(135deg,#315efb,#7b94ff);color:#fff;display:grid;place-items:center;font-size:30px;font-weight:850;position:relative}.profile-card h3{margin:18px 0 2px;font-size:21px}.profile-card p{margin:0;color:var(--muted);font-size:14px}.statrow{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px}.stat{background:#f7f8fc;border:1px solid var(--line);border-radius:14px;padding:13px}.stat b{display:block;font-size:19px}.stat small{color:var(--muted)}
+    section{padding:62px 0}.section-head{margin-bottom:28px}.kicker{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.section-head h2{font-size:34px;letter-spacing:-.045em;margin:6px 0}.section-head p{margin:0;color:var(--muted);max-width:650px}.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.panel,.project,.skillbox{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 8px 30px rgba(28,42,75,.035)}.panel p{margin:0;color:var(--muted)}.facts{display:grid;gap:13px}.fact{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding-bottom:11px;font-size:14px}.fact:last-child{border:0;padding:0}.fact span{color:var(--muted);text-align:right}
+    .skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.skillbox h3{margin:0 0 13px;font-size:16px}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{padding:7px 10px;background:#f4f6fb;border:1px solid #e9edf5;border-radius:9px;color:#45516a;font-size:12px;font-weight:650}
+    .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.project{display:flex;flex-direction:column;min-height:290px}.project-top{display:flex;justify-content:space-between;align-items:center}.project-icon{width:44px;height:44px;border-radius:13px;background:var(--blue2);color:var(--blue);display:grid;place-items:center;font-weight:850;font-size:20px}.project-type{color:var(--muted);font-size:12px}.project h3{font-size:21px;margin:18px 0 8px}.project p{margin:0;color:var(--muted);font-size:14px}.project .chips{margin-top:17px}.project-links{display:flex;gap:16px;margin-top:auto;padding-top:22px;font-size:13px;font-weight:750;color:var(--blue)}.note{margin-top:18px;color:var(--muted);font-size:12px}
+    .looking{background:#17213b;color:#fff;border-radius:24px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:20px}.looking p{color:#c4cce0;margin:7px 0 0}.looking h2{margin:0;font-size:28px;letter-spacing:-.04em}.looking .btn{background:#fff;color:#17213b;white-space:nowrap}
+    footer{padding:34px 0 42px;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px}
+    @media(max-width:760px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:52px;gap:28px}.about-grid,.skills,.projects{grid-template-columns:1fr}.looking{align-items:flex-start;flex-direction:column}.hero h1{font-size:48px}.wrap{width:min(100% - 30px,600px)}section{padding:48px 0}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#">bharath<span>.</span></a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+    <a class="nav-cta" href="https://github.com/Bharath170" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
+  <main>
+    <div class="wrap hero">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> OPEN TO REMOTE INTERNSHIP OPPORTUNITIES</div>
+        <h1>Hi, I'm Bharath.<br/>I build <em>web experiences.</em></h1>
+        <p class="lead">B.Tech AI &amp; ML student interested in building responsive websites and practical web applications with modern JavaScript tools.</p>
+        <div class="actions"><a class="btn primary" href="#projects">Explore my projects ↗</a><a class="btn secondary" href="https://github.com/Bharath170" target="_blank" rel="noreferrer">View GitHub</a></div>
+        <div class="mini">React · JavaScript · Firebase · Node.js · Expo</div>
+      </div>
+      <aside class="profile-card">
+        <div class="avatar">B.</div>
+        <h3>Bharath Simha Reddy</h3>
+        <p>Student Developer · India</p>
+        <div class="statrow"><div class="stat"><b>02</b><small>Featured projects</small></div><div class="stat"><b>4–5 hrs</b><small>Daily availability</small></div></div>
+      </aside>
+    </div>
+    <section id="about"><div class="wrap">
+      <div class="section-head"><div class="kicker">A little about me</div><h2>Learning by building.</h2><p>I enjoy exploring how products work — from user interfaces and application flows to APIs, databases, and deployment.</p></div>
+      <div class="about-grid">
+        <div class="panel"><p>My development workflow includes AI-assisted coding tools. I use them to explore implementation ideas and speed up development, while working to understand the code, test features, and improve the result. I'm looking for a team where I can contribute to real tasks and learn through feedback and code reviews.</p></div>
+        <div class="panel facts"><div class="fact"><b>Education</b><span>B.Tech · AI &amp; ML</span></div><div class="fact"><b>Work preference</b><span>Remote · Part-time</span></div><div class="fact"><b>Interested roles</b><span>Web / Full-Stack Intern</span></div><div class="fact"><b>GitHub</b><span>@Bharath170</span></div></div>
+      </div>
+    </div></section>
+    <section id="skills"><div class="wrap">
+      <div class="section-head"><div class="kicker">Tools I work with</div><h2>Skills &amp; technologies.</h2><p>Technologies used across my learning and portfolio projects.</p></div>
+      <div class="skills">
+        <div class="skillbox"><h3>Frontend</h3><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">React</span><span class="chip">Vite</span><span class="chip">Tailwind CSS</span></div></div>
+        <div class="skillbox"><h3>Backend &amp; data</h3><div class="chips"><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">Firebase</span><span class="chip">Firestore</span><span class="chip">PostgreSQL</span></div></div>
+        <div class="skillbox"><h3>Tools &amp; mobile</h3><div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">VS Code</span><span class="chip">Expo</span><span class="chip">React Native</span><span class="chip">Cloudinary</span></div></div>
+      </div>
+    </div></section>
+    <section id="projects"><div class="wrap">
+      <div class="section-head"><div class="kicker">Selected work</div><h2>Projects I've been building.</h2><p>Explore the source code and implementation details on GitHub.</p></div>
+      <div class="projects">
+        <article class="project"><div class="project-top"><div class="project-icon">N</div><span class="project-type">E-commerce · Web app</span></div><h3>NextMart</h3><p>A React e-commerce project with product browsing, cart and checkout flows, authentication, order history, and an admin area for product and order management.</p><div class="chips"><span class="chip">React</span><span class="chip">Vite</span><span class="chip">Firebase</span><span class="chip">Cloudinary</span></div><div class="project-links"><a href="https://github.com/Bharath170/nextmart" target="_blank" rel="noreferrer">Source code ↗</a></div></article>
+        <article class="project"><div class="project-top"><div class="project-icon">W</div><span class="project-type">Mobile · API</span></div><h3>Expense Tracker</h3><p>A React Native and Expo expense-tracking app with sign-in, income and expense entries, transaction history, and an Express API backed by PostgreSQL.</p><div class="chips"><span class="chip">React Native</span><span class="chip">Expo</span><span class="chip">Express</span><span class="chip">PostgreSQL</span></div><div class="project-links"><a href="https://github.com/Bharath170/wallet-app-expo" target="_blank" rel="noreferrer">Source code ↗</a></div></article>
+      </div>
+      <p class="note">These are learning / portfolio projects. Payment, authentication, and data-security features require further review before production use.</p>
+    </div></section>
+    <section id="contact"><div class="wrap">
+      <div class="looking"><div><h2>Let's build something useful.</h2><p>Interested in remote part-time web development internships and beginner-friendly opportunities.</p></div><a class="btn" href="https://github.com/Bharath170" target="_blank" rel="noreferrer">Connect on GitHub ↗</a></div>
+    </div></section>
+  </main>
+  <footer class="wrap"><div class="foot"><span>© <span id="year"></span> Bharath Simha Reddy</span><span>Designed &amp; built with HTML, CSS and JavaScript.</span></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
